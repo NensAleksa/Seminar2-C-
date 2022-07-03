@@ -13,8 +13,8 @@ namespace HelloWorld
             if( num_day == 3) Console.WriteLine("Среда");
             if( num_day == 4) Console.WriteLine("Четверг");
             if( num_day == 5) Console.WriteLine("Пятница");
-            if( num_day == 6) Console.WriteLine("Выходной");
-            if( num_day == 7) Console.WriteLine("Выходной");
+            if( num_day == 6) Console.WriteLine("Суббота.Выходной");
+            if( num_day == 7) Console.WriteLine("Воскресенье.Выходной");
             if( num_day >  7) Console.WriteLine("НЕ число от 1 до 7");
         }
     }
